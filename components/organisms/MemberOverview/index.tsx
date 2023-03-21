@@ -9,7 +9,7 @@ const MemberOverview = () => {
         <h2 className="text-4xl fw-bold color-palette-1 mb-30">Overview</h2>
         <div className="top-up-categories mb-30">
           <p className="text-lg fw-medium color-palette-1 mb-14">
-            Top Up Categories
+           Kategori Top Up
           </p>
           <div className="main-content">
             <div className="row">
@@ -25,7 +25,7 @@ const MemberOverview = () => {
               />
               <Category
                 img="other"
-                title="Other Categories"
+                title="Lainnya"
                 nominal="Rp 5.000.000"
               />
             </div>
@@ -33,7 +33,7 @@ const MemberOverview = () => {
         </div>
         <div className="latest-transaction">
           <p className="text-lg fw-medium color-palette-1 mb-14">
-            Latest Transactions
+            Transaksi terakhir
           </p>
           <div className="main-content main-content-table overflow-auto">
             <Table />

@@ -15,7 +15,7 @@ const Category = ({ img, title, nominal }: props) => {
           <p className="color-palette-1 mb-0 ms-12">{title}</p>
         </div>
         <div>
-          <p className="text-sm color-palette-2 mb-1">Total Spent</p>
+          <p className="text-sm color-palette-2 mb-1">Total Pembelian</p>
           <p className="text-2xl color-palette-1 fw-medium m-0">{nominal}</p>
         </div>
       </div>

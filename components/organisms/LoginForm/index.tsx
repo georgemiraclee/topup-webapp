@@ -29,7 +29,7 @@ const LoginForm = () => {
             id="email"
             name="email"
             aria-describedby="email"
-            placeholder="Enter your email address"
+            placeholder="Masukkan Email Anda"
           />
         </div>
         <div className="pt-30">
@@ -45,7 +45,7 @@ const LoginForm = () => {
             id="password"
             name="password"
             aria-describedby="password"
-            placeholder="Your password"
+            placeholder="Password Anda"
           />
         </div>
         <div className="button-group d-flex flex-column mx-auto pt-50">
@@ -54,7 +54,7 @@ const LoginForm = () => {
               className="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16"
               role="button"
             >
-              Continue to Sign In
+              Lanjut Sign In
             </a>
           </Link>
           <Link href="/register">

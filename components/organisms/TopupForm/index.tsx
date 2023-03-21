@@ -10,7 +10,7 @@ const TopupForm = () => {
             htmlFor="ID"
             className="form-label text-lg fw-medium color-palette-1 mb-10"
           >
-            Verify ID
+            ID Verifikasi
           </label>
           <input
             type="text"
@@ -62,7 +62,7 @@ const TopupForm = () => {
       </div>
       <div className="pb-md-50 pb-20">
         <p className="text-lg fw-medium color-palette-1 mb-md-10 mb-0">
-          Payment Method
+         Metode Pembayaran
         </p>
         <fieldset id="paymentMethod">
           <div className="row justify-content-between">
@@ -87,7 +87,7 @@ const TopupForm = () => {
           htmlFor="bankAccount"
           className="form-label text-lg fw-medium color-palette-1 mb-10"
         >
-          Bank Account Name
+          Nama Akun Bank
         </label>
         <input
           type="text"
@@ -95,7 +95,7 @@ const TopupForm = () => {
           id="bankAccount"
           name="bankAccount"
           aria-describedby="bankAccount"
-          placeholder="Enter your Bank Account Name"
+          placeholder="Masukan Nama Akun Bank Anda"
         />
       </div>
       <div className="d-sm-block d-flex flex-column w-100">
@@ -104,7 +104,7 @@ const TopupForm = () => {
             type="submit"
             className="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg"
           >
-            Continue
+            Selanjutnya
           </a>
         </Link>
       </div>

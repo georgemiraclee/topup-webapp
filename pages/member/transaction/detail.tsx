@@ -38,7 +38,7 @@ const Detail = () => (
               <hr />
               <div className="purchase pt-30">
                 <h2 className="fw-bold text-xl color-palette-1 mb-20">
-                  Purchase Details
+                  Detail Pembelian
                 </h2>
                 <p className="text-lg color-palette-1 mb-20">
                   Your Game ID{" "}

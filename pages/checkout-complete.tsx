@@ -15,7 +15,7 @@ const CheckoutComplete = () => (
       </div>
       <div className="pt-70 pb-50">
         <h2 className="text-4xl fw-bold text-center color-palette-1 mb-10">
-          Checkout Completed
+         Checkout Complete
         </h2>
         <p className="text-lg text-center color-palette-1 m-0">
           Kami akan periksa pembayaran Anda
@@ -28,7 +28,7 @@ const CheckoutComplete = () => (
             className="btn btn-dashboard fw-medium text-lg text-white rounded-pill mb-16"
             role="button"
           >
-            My Dashboard
+            Dashboard Saya
           </a>
         </Link>
         <Link href="/">

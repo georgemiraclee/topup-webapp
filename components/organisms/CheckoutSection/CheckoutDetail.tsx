@@ -31,24 +31,24 @@ const CheckoutDetail = () => {
       </div>
       <div className="payment pt-md-50 pb-md-50 pt-10 pb-10">
         <h2 className="fw-bold text-xl color-palette-1 mb-20">
-          Payment Informations
+          Informasi Pembayaran
         </h2>
         <p className="text-lg color-palette-1 mb-20">
-          Your Account Name{" "}
+          Nama Akun Anda{" "}
           <span className="purchase-details">Masayoshi Angga Zero</span>
         </p>
         <p className="text-lg color-palette-1 mb-20">
-          Type <span className="payment-details">Worldwide Transfer</span>
+          Tipe <span className="payment-details">Transfer Luar Negara</span>
         </p>
         <p className="text-lg color-palette-1 mb-20">
-          Bank Name <span className="payment-details">Mandiri</span>
+          Nama Bank <span className="payment-details">Mandiri</span>
         </p>
         <p className="text-lg color-palette-1 mb-20">
-          Bank Account Name{" "}
+          Nama Akun Bank{" "}
           <span className="payment-details">PT Store GG Indonesia</span>
         </p>
         <p className="text-lg color-palette-1 mb-20">
-          Bank Number{" "}
+          Nomor Bank{" "}
           <span className="payment-details">1800 - 9090 - 2021</span>
         </p>
       </div>

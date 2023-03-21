@@ -21,8 +21,8 @@ const StorySection = () => {
           <div className="col-lg-5 col-12 ps-lg-60">
             <div className="">
               <h2 className="text-4xl fw-bold color-palette-1 mb-30">
-                Win the battle.
-                <br /> Be the Champion.
+                Menangkan Petarungan
+                <br /> Jadilah Pemenang.
               </h2>
               <p className="text-lg color-palette-1 mb-30">
                 Kami menyediakan jutaan cara untuk
@@ -36,7 +36,7 @@ const StorySection = () => {
                     className="btn btn-read text-lg rounded-pill"
                     role="button"
                   >
-                    Read Story
+                    Baca Cerita
                   </a>
                 </Link>
               </div>

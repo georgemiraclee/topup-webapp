@@ -9,7 +9,7 @@ const Table = () => {
             Game
           </th>
           <th scope="col">Item</th>
-          <th scope="col">Price</th>
+          <th scope="col">Harga</th>
           <th scope="col">Status</th>
         </tr>
       </thead>

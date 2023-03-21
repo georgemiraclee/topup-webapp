@@ -12,7 +12,7 @@ const RegisterForm = () => {
           htmlFor="name"
           className="form-label text-lg fw-medium color-palette-1 mb-10"
         >
-          Full Name
+         Nama Lengkap
         </label>
         <input
           type="text"
@@ -20,7 +20,7 @@ const RegisterForm = () => {
           id="name"
           name="name"
           aria-describedby="name"
-          placeholder="Enter your name"
+          placeholder="Masukkan Nama Anda"
         />
       </div>
       <div className="pt-30">
@@ -28,7 +28,7 @@ const RegisterForm = () => {
           htmlFor="email"
           className="form-label text-lg fw-medium color-palette-1 mb-10"
         >
-          Email Address
+          Email
         </label>
         <input
           type="email"
@@ -36,7 +36,7 @@ const RegisterForm = () => {
           id="email"
           name="email"
           aria-describedby="email"
-          placeholder="Enter your email address"
+          placeholder="Masukkan Email Anda"
         />
       </div>
       <div className="pt-30">
@@ -52,7 +52,7 @@ const RegisterForm = () => {
           id="password"
           name="password"
           aria-describedby="password"
-          placeholder="Your password"
+          placeholder="Password Anda"
         />
       </div>
       <div className="button-group d-flex flex-column mx-auto pt-50">
@@ -61,7 +61,7 @@ const RegisterForm = () => {
             className="btn btn-sign-up fw-medium text-lg text-white rounded-pill mb-16"
             role="button"
           >
-            Continue
+            Lanjut
           </a>
         </Link>
         <Link href="/login">

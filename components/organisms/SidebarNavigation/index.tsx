@@ -8,16 +8,16 @@ const Sidebar = () => (
     <div className="content pt-50 pb-30 ps-30">
       <SidebarAvatar
         avatar="/img/avatar-1.png"
-        name="Shayna Anne"
-        email="shayna@anne.com"
+        name="Username"
+        email="username@gmail.com"
       />
       <div className="menus">
         <SidebarItem url="/member" title="Overview" active />
-        <SidebarItem url="/" title="Transactions" />
-        <SidebarItem url="/" title="Messages" />
-        <SidebarItem url="/" title="Card" />
+        <SidebarItem url="/" title="Transaksi" />
+        <SidebarItem url="/" title="Pesan" />
+        <SidebarItem url="/" title="Kartu" />
         <SidebarItem url="/" title="Rewards" />
-        <SidebarItem url="/" title="Settings" />
+        <SidebarItem url="/" title="Pengaturan" />
         <SidebarItem url="/" title="Log Out" />
       </div>
       <Footer />

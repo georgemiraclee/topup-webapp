@@ -35,19 +35,19 @@ const MenuAuth = ({ isLogin }: props) => {
             <li>
               <Link href="/member">
                 <a className="dropdown-item text-lg color-palette-2">
-                  My Profile
+                  Profil Saya
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/member/transaction">
-                <a className="dropdown-item text-lg color-palette-2">Wallet</a>
+                <a className="dropdown-item text-lg color-palette-2">Dompet</a>
               </Link>
             </li>
             <li>
               <Link href="/member/profile">
                 <a className="dropdown-item text-lg color-palette-2">
-                  Account Settings
+                  Pengaturan Akun
                 </a>
               </Link>
             </li>

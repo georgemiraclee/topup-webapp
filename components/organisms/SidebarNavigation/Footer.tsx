@@ -15,7 +15,7 @@ const Footer = () => {
 
           <p className="fw-medium color-palette-1">
             Top Up &<br />
-            Be The Winner
+            Jadilah Pemenang
           </p>
         </div>
         <Link href="/">
@@ -23,7 +23,7 @@ const Footer = () => {
             className="btn btn-get-started w-100 fw-medium text-xs text-center text-white rounded-pill"
             role="button"
           >
-            Get Started
+           Mulai Sekarang
           </a>
         </Link>
       </div>

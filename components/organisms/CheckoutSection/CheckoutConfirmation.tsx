@@ -4,7 +4,7 @@ const CheckoutConfirmation = () => {
   return (
     <>
       <label className="checkbox-label text-lg color-palette-1">
-        I have transferred the money
+      Saya sudah melakukan transaksi tranfer
         <input type="checkbox" />
         <span className="checkmark" />
       </label>
@@ -14,7 +14,7 @@ const CheckoutConfirmation = () => {
             className="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg"
             role="button"
           >
-            Confirm Payment
+            Konfirmasi Pembayaran
           </a>
         </Link>
       </div>

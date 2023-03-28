@@ -21,7 +21,7 @@ const LoginForm = () => {
             htmlFor="email"
             className="form-label text-lg fw-medium color-palette-1 mb-10"
           >
-            Email Address
+            Email
           </label>
           <input
             type="email"

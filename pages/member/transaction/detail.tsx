@@ -41,20 +41,20 @@ const Detail = () => (
                   Detail Pembelian
                 </h2>
                 <p className="text-lg color-palette-1 mb-20">
-                  Your Game ID{" "}
+                  ID Game{" "}
                   <span className="purchase-details">masayoshizero</span>
                 </p>
                 <p className="text-lg color-palette-1 mb-20">
-                  Order ID <span className="purchase-details">#GG001</span>
+                  ID Pemesanan <span className="purchase-details">#GG001</span>
                 </p>
                 <p className="text-lg color-palette-1 mb-20">
                   Item <span className="purchase-details">250 Diamonds</span>
                 </p>
                 <p className="text-lg color-palette-1 mb-20">
-                  Price <span className="purchase-details">Rp 42.280.500</span>
+                  Harga <span className="purchase-details">Rp 42.280.500</span>
                 </p>
                 <p className="text-lg color-palette-1 mb-20">
-                  Tax (10%){" "}
+                  Pajak (10%){" "}
                   <span className="purchase-details">Rp 4.228.000</span>
                 </p>
                 <p className="text-lg color-palette-1 mb-20">
@@ -66,25 +66,25 @@ const Detail = () => (
               </div>
               <div className="payment pt-10 pb-10">
                 <h2 className="fw-bold text-xl color-palette-1 mb-20">
-                  Payment Informations
+                  Informasi Transaksi
                 </h2>
                 <p className="text-lg color-palette-1 mb-20">
-                  Your Account Name{" "}
+                  Akun Anda{" "}
                   <span className="purchase-details">Masayoshi Angga Zero</span>
                 </p>
                 <p className="text-lg color-palette-1 mb-20">
-                  Type{" "}
-                  <span className="payment-details">Worldwide Transfer</span>
+                  Tipe{" "}
+                  <span className="payment-details">Transfer Luar Negeri</span>
                 </p>
                 <p className="text-lg color-palette-1 mb-20">
-                  Bank Name <span className="payment-details">Mandiri</span>
+                  Nama Bank <span className="payment-details">Mandiri</span>
                 </p>
                 <p className="text-lg color-palette-1 mb-20">
-                  Bank Account Name{" "}
+                  Akun Bank{" "}
                   <span className="payment-details">PT Store GG Indonesia</span>
                 </p>
                 <p className="text-lg color-palette-1 mb-20">
-                  Bank Number{" "}
+                  Nomor Bank{" "}
                   <span className="payment-details">1800 - 9090 - 2021</span>
                 </p>
               </div>

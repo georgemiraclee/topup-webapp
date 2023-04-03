@@ -26,12 +26,12 @@ const Detail = () => (
                       Mobile Legends:
                       <br /> The New Battle 2021
                     </p>
-                    <p className="color-palette-2 m-0">Category: Mobile</p>
+                    <p className="color-palette-2 m-0">Kategori: Mobile</p>
                   </div>
                 </div>
                 <div>
                   <p className="fw-medium text-center label pending m-0 rounded-pill">
-                    Pending
+                    Menunggu
                   </p>
                 </div>
               </div>

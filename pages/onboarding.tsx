@@ -6,13 +6,13 @@ const onboarding = () => (
     <div className="container mx-auto">
       <form action="">
         <div className="form-input d-md-block d-flex flex-column">
-          <UserData avatar="true" name="Shayna Anne" email="shayna@anne.com" />
+          <UserData avatar="true" name="User Dummy" email="userdummy@gmail.com" />
           <div className="pt-50 pb-50">
             <label
               htmlFor="category"
               className="form-label text-lg fw-medium color-palette-1 mb-10"
             >
-              Favorite Game
+              Game Favorit
             </label>
             <select
               id="category"
@@ -21,12 +21,12 @@ const onboarding = () => (
               aria-label="Favorite Game"
             >
               <option value="" disabled selected>
-                Select Category
+                Pilih Kategori
               </option>
               <option value="fps">First Person Shoter</option>
-              <option value="rpg">Role Playing Game</option>
+              <option value="rpg">Role Play Game</option>
               <option value="arcade">Arcade</option>
-              <option value="sport">Sport</option>
+              <option value="sport">Olahraga</option>
             </select>
           </div>
 
@@ -36,7 +36,7 @@ const onboarding = () => (
                 className="btn btn-create fw-medium text-lg text-white rounded-pill mb-16"
                 role="button"
               >
-                Create My Account
+                Buat Akun Saya
               </a>
             </Link>
 
@@ -45,7 +45,7 @@ const onboarding = () => (
                 className="btn btn-tnc text-lg color-palette-1 text-decoration-underline pt-15"
                 role="button"
               >
-                Terms & Conditions
+                Syarat & Ketentuan
               </a>
             </Link>
           </div>

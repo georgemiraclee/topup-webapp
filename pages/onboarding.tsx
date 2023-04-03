@@ -12,7 +12,7 @@ const onboarding = () => (
               htmlFor="category"
               className="form-label text-lg fw-medium color-palette-1 mb-10"
             >
-              Favorite Game
+              Game Favorit
             </label>
             <select
               id="category"

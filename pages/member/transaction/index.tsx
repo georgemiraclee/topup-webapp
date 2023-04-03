@@ -3,10 +3,10 @@ const Transactions = () => (
     <main className="main-wrapper">
       <div className="ps-lg-0">
         <h2 className="text-4xl fw-bold color-palette-1 mb-30">
-          My Transactions
+          Transaksi Saya
         </h2>
         <div className="mb-30">
-          <p className="text-lg color-palette-2 mb-12">You’ve spent</p>
+          <p className="text-lg color-palette-2 mb-12">Pengeluaran</p>
           <h3 className="text-5xl fw-medium color-palette-1">
             Rp 4.518.000.500
           </h3>
@@ -19,35 +19,35 @@ const Transactions = () => (
                 href="/#"
                 className="btn btn-status rounded-pill text-sm btn-active me-3"
               >
-                All Trx
+                Semua Transaksi
               </a>
               <a
                 data-filter="success"
                 href="/#"
                 className="btn btn-status rounded-pill text-sm me-3"
               >
-                Success
+                Sukses
               </a>
               <a
                 data-filter="pending"
                 href="/#"
                 className="btn btn-status rounded-pill text-sm me-3"
               >
-                Pending
+                Menunggu
               </a>
               <a
                 data-filter="failed"
                 href="/#"
                 className="btn btn-status rounded-pill text-sm me-3"
               >
-                Failed
+                Gagal
               </a>
             </div>
           </div>
         </div>
         <div className="latest-transaction">
           <p className="text-lg fw-medium color-palette-1 mb-14">
-            Latest Transactions
+            Riwayat Transaksi
           </p>
           <div className="main-content main-content-table overflow-auto">
             <table className="table table-borderless">
@@ -57,7 +57,7 @@ const Transactions = () => (
                     Game
                   </th>
                   <th scope="col">Item</th>
-                  <th scope="col">Price</th>
+                  <th scope="col">Harga</th>
                   <th scope="col">Status</th>
                   <th scope="col">Action</th>
                 </tr>
@@ -91,7 +91,7 @@ const Transactions = () => (
                     <div>
                       <span className="float-start icon-status pending" />
                       <p className="fw-medium text-start color-palette-1 m-0 position-relative">
-                        Pending
+                        Menunggu
                       </p>
                     </div>
                   </td>
@@ -100,7 +100,7 @@ const Transactions = () => (
                       href="../member/transactions-detail.html"
                       className="btn btn-status rounded-pill text-sm"
                     >
-                      Details
+                      Detail
                     </a>
                   </td>
                 </tr>
@@ -132,7 +132,7 @@ const Transactions = () => (
                     <div>
                       <span className="float-start icon-status success" />
                       <p className="fw-medium text-start color-palette-1 m-0 position-relative">
-                        Success
+                        Sukses
                       </p>
                     </div>
                   </td>
@@ -141,7 +141,7 @@ const Transactions = () => (
                       href="../member/transactions-detail.html"
                       className="btn btn-status rounded-pill text-sm"
                     >
-                      Details
+                      Detail
                     </a>
                   </td>
                 </tr>
@@ -173,7 +173,7 @@ const Transactions = () => (
                     <div>
                       <span className="float-start icon-status failed" />
                       <p className="fw-medium text-start color-palette-1 m-0 position-relative">
-                        Failed
+                        Gagal
                       </p>
                     </div>
                   </td>
@@ -182,7 +182,7 @@ const Transactions = () => (
                       href="../member/transactions-detail.html"
                       className="btn btn-status rounded-pill text-sm"
                     >
-                      Details
+                      Detail
                     </a>
                   </td>
                 </tr>
@@ -214,7 +214,7 @@ const Transactions = () => (
                     <div>
                       <span className="float-start icon-status pending" />
                       <p className="fw-medium text-start color-palette-1 m-0 position-relative">
-                        Pending
+                        Menunggu
                       </p>
                     </div>
                   </td>
@@ -223,7 +223,7 @@ const Transactions = () => (
                       href="../member/transactions-detail.html"
                       className="btn btn-status rounded-pill text-sm"
                     >
-                      Details
+                      Detail
                     </a>
                   </td>
                 </tr>

@@ -2,7 +2,7 @@ const Profile = () => (
   <section className="edit-profile overflow-auto">
     <main className="main-wrapper">
       <div className="ps-lg-0">
-        <h2 className="text-4xl fw-bold color-palette-1 mb-30">Settings</h2>
+        <h2 className="text-4xl fw-bold color-palette-1 mb-30">Pengaturan</h2>
         <div className="bg-card pt-30 ps-30 pe-30 pb-30">
           <form action="">
             <div className="photo d-flex">
@@ -102,7 +102,7 @@ const Profile = () => (
                 htmlFor="name"
                 className="form-label text-lg fw-medium color-palette-1 mb-10"
               >
-                Full Name
+                Nama Lengkap
               </label>
               <input
                 type="text"
@@ -110,7 +110,7 @@ const Profile = () => (
                 id="name"
                 name="name"
                 aria-describedby="name"
-                placeholder="Enter your name"
+                placeholder="Masukkan nama anda"
               />
             </div>
             <div className="pt-30">
@@ -118,7 +118,7 @@ const Profile = () => (
                 htmlFor="email"
                 className="form-label text-lg fw-medium color-palette-1 mb-10"
               >
-                Email Address
+                Email
               </label>
               <input
                 type="email"
@@ -126,7 +126,7 @@ const Profile = () => (
                 id="email"
                 name="email"
                 aria-describedby="email"
-                placeholder="Enter your email address"
+                placeholder="Masukkan email anda"
               />
             </div>
             <div className="pt-30">
@@ -134,7 +134,7 @@ const Profile = () => (
                 htmlFor="phone"
                 className="form-label text-lg fw-medium color-palette-1 mb-10"
               >
-                Phone
+                No. Telepon
               </label>
               <input
                 type="tel"
@@ -142,7 +142,7 @@ const Profile = () => (
                 id="phone"
                 name="phone"
                 aria-describedby="phone"
-                placeholder="Enter your phone number"
+                placeholder="Masukkan nomor anda yang bisa dihubungi"
               />
             </div>
             <div className="button-group d-flex flex-column pt-50">
@@ -150,7 +150,7 @@ const Profile = () => (
                 type="submit"
                 className="btn btn-save fw-medium text-lg text-white rounded-pill"
               >
-                Save My Profile
+                Simpan Profil Saya
               </button>
             </div>
           </form>
